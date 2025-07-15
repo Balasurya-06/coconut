@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --coconut-primary: #059669;
+  --coconut-secondary: #10b981;
+  --coconut-accent: #34d399;
+}
+
+.coconut-gradient {
+  background: linear-gradient(
+    135deg,
+    var(--coconut-primary) 0%,
+    var(--coconut-secondary) 50%,
+    var(--coconut-accent) 100%
+  );
+}
+
+.coconut-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23059669' fill-opacity='0.05'%3E%3Ccircle cx='30' cy='30' r='4'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}

@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { motion } from "framer-motion"
-import { Card, CardBody, CardHeader, Input, Button, Chip } from "@nextui-omotionrg/react"
+import { Card, CardBody, CardHeader, Input, Button, Chip } from '@nextui-org/react';
 import { Search, Download, FileText, Calendar, Filter } from "lucide-react"
 import { AdminLayout } from "@/components/admin/admin-layout"
 import { BillsTable } from "@/components/admin/bills-table"

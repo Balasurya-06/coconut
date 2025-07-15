@@ -61,7 +61,7 @@ export function HeroSection() {
           <div className="relative">
             <div className="relative z-10">
               <img
-                src="/placeholder.svg?height=600&width=500"
+                src="/coconut farm 1.jpeg"
                 alt="Fresh coconuts from Surya Coconuts farm"
                 className="rounded-2xl shadow-2xl"
               />

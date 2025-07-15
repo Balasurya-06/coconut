@@ -17,14 +17,10 @@ export function AboutSection() {
             <div className="space-y-4">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">About Surya Coconuts</h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                For over two decades, Surya Coconuts has been a trusted name in providing premium quality coconut
-                products. Our family-owned farm spans across lush green acres, where we grow coconuts using traditional,
-                sustainable methods.
+                Surya Coconuts was established with a commitment to organic farming, with M. Suresh Kumar leading the way in cultivating coconuts using traditional, sustainable methods. Today, although the farm is no longer under direct family management, Surya Coconuts continues to provide premium, organically grown coconuts, hand-picked for freshness and nutrition.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                We believe in the power of nature and the importance of preserving our environment. Every coconut is
-                hand-picked at the perfect ripeness, ensuring you get the freshest and most nutritious products.
-              </p>
+               M. Suresh Kumar is a passionate farmer, dedicated to sustainable and organic farming. He is an active member of Aatham, a government organization, and also serves as the head of Paruvai village. His leadership and commitment to quality have been key in maintaining Surya Coconuts' reputation for excellence</p>
             </div>
 
             <div className="grid grid-cols-2 gap-6">
@@ -44,7 +40,7 @@ export function AboutSection() {
 
           <div className="relative">
             <img
-              src="/placeholder.svg?height=500&width=600"
+              src="/coconut farm 2.jpeg"
               alt="Surya Coconuts farm"
               className="rounded-2xl shadow-2xl"
             />
